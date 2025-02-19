@@ -1,3 +1,4 @@
+# Descrption of the columns in the metadata dataset (train_chexpert.csv)
 Frontal/Lateral: This indicates the type of X-ray view. Frontal views are taken from the front (anterior) or back (posterior) of the body (often referred to as AP for anterior-posterior or PA for posterior-anterior), while lateral views are taken from the side.
 
 AP/PA: This further specifies whether the X-ray is an anterior-posterior (AP) or posterior-anterior (PA) view. AP views are taken with the X-ray source in front of the patient and the detector behind; PA views are the opposite, which can provide a clearer image of certain structures due to reduced magnification of the heart and mediastinum.
