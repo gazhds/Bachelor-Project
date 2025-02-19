@@ -1,3 +1,11 @@
+# 20.02.2025
+1. Report from Gabi's side:
+   - connected to the HPC
+   - downloaded the data
+   - set up the folders
+   - started on the EDA
+   - send the GitHub repo link
+
 # 13.02.2025 - Individual meeting with Amelia and Veronika
 1. Discussed different approaches for the model training and testing:
   - using only simple features, extracted directly from the images for the training
