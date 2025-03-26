@@ -1,3 +1,24 @@
+# Questions for meeting on 27.03:
+1. About features extraction and preparation of the training data:
+   1.1 As I want to do a supervised learning, should I have only one of the diseases (e.g. Pneumonia) as a label for checking how well the model is performing on detecting the said illness (using meta data and the presense of the other diseases as features), or I should use all of the diseases as labels and check how the different models and the different training datasets detect the different diseases?
+   1.2 Regarding features extraction directly from the images:
+      - Assymetry: size and shape of the two lungs
+      - Density of each side: medical reports state that if one of the lungs is dense and white it indicates for consolidation (Lung consolidation is when the air in the small airways of the lungs is replaced with a fluid, solid, or other material such as pus, blood, water, stomach contents, or cells. It can be caused by conditions like aspiration, pneumonia, and lung cancer.)
+      - Presense of tubes
+  
+2. About literature review:
+  - Still at the very beginning (taking more detailed notes on the papers)
+  - Q: Amount of papers that should be included in the review and the amount of pages that are expected as a final product (for the review and for the project as a whole)
+
+
+# Update on the project until 25.03.2025
+1. Finished exploring the data
+   - performed statistical analysis on all the features
+   - prepared plots for every feature that can be extracted from the csvs
+2. Started on finding ways of how to extract features from the images
+3. Started on the literature review - preparing notes and drafts on the papers used for the problem statement
+   - general idea and practices used so far in the topic research
+
 # 20.02.2025
 1. Report from Gabi's side:
    - connected to the HPC
