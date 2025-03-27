@@ -1,3 +1,34 @@
+# Meeting 27.03
+1. Feature extractions and preparation of the training data:
+   1.1. Decide for label for the supervised learning - Pneumonia or Pneumotorax (Pneumonia may be hard to detect using only images and not clinical history)
+   1.2. Features extraction directly from the images:
+      - corners detection, grey scale histogram, letters in the edges (traditional features extracted from the images)
+      - medical papers supported features: assymetry, density (consolidation), presense of tubes (more like a negative feature(prone to bias the model)), check for more
+      - for tubes detection check the other group project
+      - use masks to ensure capturing only the lungs - better for assymetry and will exclude the corners (noise and unnecassary letters)
+  
+2. Models and experiments
+   2.1. Use all of the features together (decided not to use different trining sets, but to have different models to evaluate the detection of the disease)
+   2.2. Decide on the labels
+      - Having Pneumonia/Not having Pneumonia
+      - Having Pneumonia/Having another disease/Being healthy
+   2.3. Have a simple base model (KNN, Logistic regression) and choose evaluation metrics (AUC, accuracy)
+   2.4. Prepare more complex models for further comparisson
+      - Random forest
+      - Any NN architecture that showed significant thruthfulness in image recognition (e.g. ResNet)
+  
+3. Literature review
+   3.1. Think of the structure of the paper - what parts/segments I want to have in the LR
+   3.2. Medical papers part:
+      - It is good to have a few papers(2,3) to sow the medical significance some fetaures have (e.g, the ones extracted from the images)
+      - Use scientifically proven papers
+   3.3. Technical part:
+      - E.g. papers about consolidation detection in X-rays images
+      - ResNet explaination and the benefits of using such network
+   3.4. Part combining the previous two parts:
+      - Significance of having ML tools analyzing medical images
+      - Benefits of having more clinically proven features when developing ML models for medical analysis
+
 # Questions for meeting on 27.03:
 1. About features extraction and preparation of the training data:
 
