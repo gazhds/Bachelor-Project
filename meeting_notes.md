@@ -1,9 +1,17 @@
-# Questions for meeting on 03.04.2025
+# Questions and updates for meeting on 03.04.2025
 1. Oral exam date and external examiner
 
 2. Pneumonia vs Pneumothorax:
    - Pneumonia is detected using CT (computed tomography) and if the cause is uncertain then a X-ray is ordered
    - Pneumothorax is detected usign X-ray and can be easily seen on the images (bonus: there are formulas used to measure the impact of the pneumothorax)
+   - Conclusion: for labels I will use Pneumothorax and will try to implement the impact formulas on the feature extraction
+  
+3. Plan for features:
+   - all the features from the csv where each patient will have as many entries in the final dataset as the number of images in their folder
+   - prsence of tubes
+   - impact formula
+   - still researching on assymetry, but most certainly will include it
+   - will try also PCA to see if it makes difference for the final results
 
 # Meeting 27.03
 1. Feature extractions and preparation of the training data:
