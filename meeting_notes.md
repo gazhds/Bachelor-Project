@@ -1,3 +1,10 @@
+# Questions for meeting on 03.04.2025
+1. Oral exam date and external examiner
+
+2. Pneumonia vs Pneumothorax:
+   - Pneumonia is detected using CT (computed tomography) and if the cause is uncertain then a X-ray is ordered
+   - Pneumothorax is detected usign X-ray and can be easily seen on the images (bonus: there are formulas used to measure the impact of the pneumothorax)
+
 # Meeting 27.03
 1. Feature extractions and preparation of the training data:
 
