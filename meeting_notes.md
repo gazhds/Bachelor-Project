@@ -1,10 +1,10 @@
 # Questions and updates for meeting on 03.04.2025
 1. Oral exam date and external examiner
 
-2. Pneumonia vs Pneumothorax:
+2. Pneumonia vs Pneumothorax vs Pleural Effusion:
    - Pneumonia is detected using CT (computed tomography) and if the cause is uncertain then a X-ray is ordered
    - Pneumothorax is detected usign X-ray and can be easily seen on the images (bonus: there are formulas used to measure the impact of the pneumothorax)
-   - Conclusion: for labels I will use Pneumothorax and will try to implement the impact formulas on the feature extraction
+   - Pleural Effusion - the disease we have the most labels for; means fluids in the lungs (blood, water, ect.), pneumonia may be the cause of it, after threatment it may cause peumothorax
   
 3. Plan for features:
    - all the features from the csv where each patient will have as many entries in the final dataset as the number of images in their folder
