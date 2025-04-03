@@ -8,6 +8,7 @@
   
 3. Plan for features:
    - all the features from the csv where each patient will have as many entries in the final dataset as the number of images in their folder
+   - greyscale hystogram
    - prsence of tubes
    - impact formula
    - still researching on assymetry, but most certainly will include it
