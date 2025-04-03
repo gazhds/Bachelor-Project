@@ -13,6 +13,12 @@
    - impact formula
    - still researching on assymetry, but most certainly will include it
    - will try also PCA to see if it makes difference for the final results
+  
+4. Plan until next meeting on 10.04:
+   - combine the masks with the images
+   - extract all the features needed
+   - prepare all the data
+   - do the baseline model + one of the DL models
 
 # Meeting 27.03
 1. Feature extractions and preparation of the training data:
