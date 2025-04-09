@@ -11,15 +11,19 @@
 
    1.5. XGBoost reported accuracy of 0.8435 (only on csv data + grey scale histograms + corners detection)
 
-3. Managed to extract grey-scale histogram and corner detection features from the data and added them to the training data
+2. Managed to extract grey-scale histogram and corner detection features from the data and added them to the training data
 
-4. Had some problems when applying the masks on top of the images as they used RLE coordinates and it looks not right on the merged image, but I am working on it.
+3. Had some problems when applying the masks on top of the images as they used RLE coordinates and it looks not right on the merged image, but I am working on it.
 
-5. Plan for next week:
+4. Plan for next week:
 
    4.1. Finish with the masks
 
    4.2. Start with DL models and maybe finish them
+
+5. Questions:
+
+   5.1. Any ideas how to apply the masks more accurately?
 
    
 # Questions and updates for meeting on 03.04.2025
