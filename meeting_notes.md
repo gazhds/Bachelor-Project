@@ -1,5 +1,6 @@
 # Questions and updates for meeting on 10.03.2025
 1. After trying logistic regression and KNN, I decided to use XGBoost because:
+
    1.1. There are a lot of NaNs for different diseases; e.g. a disease was not examined for so no data available
    
    1.2. The missing data caused the model to fail training
@@ -10,11 +11,11 @@
 
    1.5. XGBoost reported accuracy of 0.8435 (only on csv data + grey scale histograms + corners detection)
 
-2. Managed to extract grey-scale histogram and corner detection features from the data and added them to the training data
+3. Managed to extract grey-scale histogram and corner detection features from the data and added them to the training data
 
-3. Had some problems when applying the masks on top of the images as they used RLE coordinates and it looks not right on the merged image, but I am working on it.
+4. Had some problems when applying the masks on top of the images as they used RLE coordinates and it looks not right on the merged image, but I am working on it.
 
-4. Plan for next week:
+5. Plan for next week:
 
    4.1. Finish with the masks
 
