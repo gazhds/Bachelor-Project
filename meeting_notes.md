@@ -1,3 +1,20 @@
+# Questions and updates for meeting on 10.03.2025
+1. After trying logistic regression and KNN, I decided to use XGBoost because:
+   1.1. There are a lot of NaNs for different diseases; e.g. a disease was not examined for so no data available
+   1.2. The missing data caused the model to fail training
+   1.3. After researching different approaches how to handle NaN in that case, I found out that all the possible solutions would alter my results (removing all NaNs (impossible, because a lot of data would be removed); exchanging the NaN values with the mean/SD/most frequent label -> the absence of data is desired)
+   1.4. XGBoost, CatBoost and LightGBM handle NaN data, decided on XGBoost as the one I feel most comfortable about. The three of them are gradient boosting algorithms and XGBoost and LightGBM have tree-like structure. CatBoost handles numerical and categorical features as two different categories (not very familiar with it, sounds useful)
+   1.5. XGBoost reported accuracy of 0.8435 (only on csv data + grey scale histograms + corners detection)
+
+2. Managed to extract grey-scale histogram and corner detection features from the data and added them to the training data
+
+3. Had some problems when applying the masks on top of the images as they used RLE coordinates and it looks not right on the merged image, but I am working on it.
+
+4. Plan for next week:
+   4.1. Finish with the masks
+   4.2. Start with DL models and maybe finish them
+
+   
 # Questions and updates for meeting on 03.04.2025
 1. Oral exam date and external examiner
 
