@@ -8,6 +8,12 @@
 
 <img width="1212" alt="Screenshot 2025-04-16 at 11 15 41" src="https://github.com/user-attachments/assets/524dcabb-0359-4bb1-af5c-4b48ad12e27c" />
 
+5. Further work:
+   - Since I found that not all of the masks were able to be joined back to the original images csv, I will try to find the problem and make sure that I have the most data possible
+   - Will try to PCA all of the features to see if it makes any difference
+   - If the results continue to look like noe, I will write in my Discussion part that it does not make any significant difference in adding clinical features
+  
+
 # Questions and updates for meeting on 10.04.2025
 1. After trying logistic regression and KNN, I decided to use XGBoost because:
 
