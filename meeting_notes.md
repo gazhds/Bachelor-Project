@@ -1,6 +1,6 @@
 # Updates for meeting on 16.04.2025
 1. I did apply the masks n top of the images and extracted as features:
-   - Assymetry by applying rectangulars on top of each lung, flipping the right one and placing it on top of the left one, then calculating the ratio of the non-overlapping lungs area to the all lungs area (if the image after summing has pixels with values 0, 1 and 2, then the ratio is = Sum of ones/Sum of ones and twoes)
+   - Assymetry by applying rectangulars on top of each lung, flipping the right one and placing it on top of the left one, then calculating the ratio of the non-overlapping lungs area to the all lungs area (if the image after summing has pixels with values 0, 1 and 2, then the ratio is = Sum of 1s/Sum of 1s and 2s)
    - Intensity - having an average value for the level of white each lung has
 2. I did 3 models - XGBoost, ResNet and CNN - all of them were trained and tested on different subsets of the features (once on all features without the medical features, once on all featues)
 3. I tried applying PCA to the features related to the histogram and the corners detection as it is the most spatial data I have and then again did all of the three models with tand withput  clinical features.
