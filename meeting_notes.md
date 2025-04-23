@@ -1,3 +1,22 @@
+# Updates for meeting on 24.04.2025
+1. I left at the end 2 models - XGBoost and ResNet - each with 3 different sets of training data:
+   - only metadata
+   - metadata + greyscale histogram + corners detection
+   - metadata + greyscale histogram + corners detection + assymetry + white intensity
+  
+2. I am using different evaluation metrics to compare the models:
+   - AUC
+   - Accuracy
+   - RunTime
+   - ECE (Expected Calibration Error) - Measures the average absolute difference between predicted probabilities and true empirical probabilities
+   - MCE (Maximum Calibration Error) - Captures the worst-case deviation between predicted and empirical probabilities across bins
+   - Brier Score - A proper scoring rule that combines calibration and discrimination (similar to MSE for probabilities)
+  
+3. The XGBoost model achieves its best performance using only statistical data (AUC 0.876, ECE 0.005), with fast execution (10.1s), suggesting image features may not add significant predictive value. While clinical features marginally improve AUC (0.872 vs. 0.864 without them), they introduce a substantial runtime cost (35.6s vs. 2m55s), making the tradeoff questionable for deployment. The hybrid "Statistical + Clinical" version offers the best balance (AUC 0.872, ECE 0.006) with moderate runtime (35.6s), though its gains over statistical-only are minimal. Notably, clinical features significantly improve worst-case calibration (MCE drops from 0.073 to 0.038), which could be critical for high-stakes applications. Across all configurations, XGBoost maintains strong calibration (ECE ≤0.01) and discrimination (AUC ≥0.864), with runtime being the primary differentiator.
+  
+   <img width="712" alt="Screenshot 2025-04-24 at 01 58 00" src="https://github.com/user-attachments/assets/5321904c-d8de-4b02-a682-19a7215ad5e0" />
+
+
 # Updates for meeting on 16.04.2025
 1. I did apply the masks n top of the images and extracted as features:
    - Assymetry by applying rectangulars on top of each lung, flipping the right one and placing it on top of the left one, then calculating the ratio of the non-overlapping lungs area to the all lungs area (if the image after summing has pixels with values 0, 1 and 2, then the ratio is = Sum of 1s/Sum of 1s and 2s)
