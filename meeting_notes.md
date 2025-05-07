@@ -12,7 +12,7 @@
 6. For the ResNet - still having troubl;es with the training - the server is not responding when opened from VSC and cannot make any changes. Trying to resolve the issues but:
    - What is happenning if I cannot finish the ResNet - can I change the text analyzing in more depth the XGBoost results and addig in the future work that if I had more time I could use ResNet and so on with the explanations?
    - Any suggewstions how to fix this would be in help
-  # UPDATE - managed to make it work again, I will fix the script now, hopefully it will work again (I don't know when you are reading this but this update is from 20:21 Wednesday)
+  **UPDATE - managed to make it work again, I will fix the script now, hopefully it will work again (I don't know when you are reading this but this update is from 20:21 Wednesday)**
 7. How many visualizations it is goos to have?
 
 # Updates for meeting on 24.04.2025
