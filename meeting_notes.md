@@ -3,7 +3,17 @@
 
 2. I will prepare the repository for the final submission, still under maintainance as I am using the HPC server for coding, but I will transfer anything that is left on the server to the repository (like plot images, helper functions files ect.). The main files are currently at the repository.
 
-3. In the introduction I am mentioning the mortality rate of MPE (Melignant Pleural Effusion) which is caused by cancer, its clinical features are the same as the Pleural Effusion ones. Is it 
+3. In the introduction I am mentioning the mortality rate of MPE (Melignant Pleural Effusion) which is caused by cancer, its clinical features are the same as the Pleural Effusion ones. Is it okay to include that information as it is a subgroup of the pleural Effusion and probably some of the images categorized as Pleural Effusion are having MPE actually.
+
+4. For the oral exam what should I expect?
+
+5. Final date for the oral?
+
+6. For the ResNet - still having troubl;es with the training - the server is not responding when opened from VSC and cannot make any changes. Trying to resolve the issues but:
+   - What is happenning if I cannot finish the ResNet - can I change the text analyzing in more depth the XGBoost results and addig in the future work that if I had more time I could use ResNet and so on with the explanations?
+   - Any suggewstions how to fix this would be in help
+  
+7. How many visualizations it is goos to have?
 
 # Updates for meeting on 24.04.2025
 1. I left at the end 2 models - XGBoost and ResNet - each with 3 different sets of training data:
