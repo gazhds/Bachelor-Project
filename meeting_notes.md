@@ -16,6 +16,8 @@
   **UPDATE - managed to make it work again, I will fix the script now, hopefully it will work again (I don't know when you are reading this but this update is from 20:21 Wednesday)**
 7. How many visualizations it is goos to have?
 
+8. Should I include more analyzis on the classes specific accuracy (like if the model manages to distinguish better the positive ones (like confusion matrices))
+
 # Updates for meeting on 24.04.2025
 1. I left at the end 2 models - XGBoost and ResNet - each with 3 different sets of training data:
    - only metadata
