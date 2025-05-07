@@ -1,3 +1,7 @@
+# Questions for meeting on 07.05.2025
+1. Should I include all of the references I am using in the related work part? My initial idea was to have the main papers that inspired me for this research in the Related work (like 3-5), and then mentioning other works in the other parts when needed.
+2. 
+
 # Updates for meeting on 24.04.2025
 1. I left at the end 2 models - XGBoost and ResNet - each with 3 different sets of training data:
    - only metadata
