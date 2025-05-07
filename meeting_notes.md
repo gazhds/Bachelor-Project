@@ -1,6 +1,9 @@
 # Questions for meeting on 07.05.2025
 1. Should I include all of the references I am using in the related work part? My initial idea was to have the main papers that inspired me for this research in the Related work (like 3-5), and then mentioning other works in the other parts when needed.
-2. 
+
+2. I will prepare the repository for the final submission, still under maintainance as I am using the HPC server for coding, but I will transfer anything that is left on the server to the repository (like plot images, helper functions files ect.). The main files are currently at the repository.
+
+3. In the introduction I am mentioning the mortality rate of MPE (Melignant Pleural Effusion) which is caused by cancer, its clinical features are the same as the Pleural Effusion ones. Is it 
 
 # Updates for meeting on 24.04.2025
 1. I left at the end 2 models - XGBoost and ResNet - each with 3 different sets of training data:
