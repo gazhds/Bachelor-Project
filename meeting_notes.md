@@ -14,6 +14,9 @@
    - Any suggewstions how to fix this would be in help
      
   **UPDATE - managed to make it work again, I will fix the script now, hopefully it will work again (I don't know when you are reading this but this update is from 20:21 Wednesday)**
+  
+  - more UPDATES: couldn't make tensorflow to work with CUDA, preinstalled everything and followed the guide on the hpc website but still having dependancies issues, that is why I decided to use pytorch instead, now waiting to see if it works
+    
 7. How many visualizations it is goos to have?
 
 8. Should I include more analyzis on the classes specific accuracy (like if the model manages to distinguish better the positive ones (like confusion matrices))
