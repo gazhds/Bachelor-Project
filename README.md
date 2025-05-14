@@ -1,5 +1,5 @@
 
-# 🫁 Bachelor Thesis – Detecting Pleural Effusion in Chest X-rays with Clinical Features
+# 🫁 Bachelor Thesis – The Impact of Clinical Features on the Performance of Machine Learning Models Classifying Pleural Effusion
 
 **Author:** Gabriela Zhelyazkova  
 **Program:** BSc in Data Science  
