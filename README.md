@@ -125,9 +125,9 @@ Architecture:
 
 | Model        | Configuration    | AUC   | Comments                     |
 |--------------|------------------|-------|------------------------------|
-| XGBoost      | Clinical Only     | 0.873 | Best performance overall     |
+| XGBoost      | Clinical Only     | 0.869 | Best performance overall     |
 | ResNet-based | Combined features | 0.860 | Best among deep models       |
-| PCA variants | Any config        | ↓     | Decreased performance noted  |
+| PCA variants | Any config        | ↓     | Perfromance remain the same  |
 
 *PCA-based dimensionality reduction could be further researched.*
 
