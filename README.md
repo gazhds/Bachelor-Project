@@ -5,7 +5,7 @@
 **Program:** BSc in Data Science  
 **Institution:** IT University of Copenhagen  
 **Supervisors:** Dr. Amelia Jiménez-Sánchez, Dr. Veronika Cheplygina  
-**Date:** 2025  
+**Date:** May 2025  
 
 ---
 
