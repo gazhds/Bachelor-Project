@@ -61,7 +61,7 @@ source venv/bin/activate        # On Windows: venv\Scripts\activate
 # Install required packages
 pip install -r requirements.txt
 ```
-💡 **GPU is strongly recommended** for training deep learning models. Make sure CUDA and a GPU-enabled PyTorch or TensorFlow is installed.
+💡 **GPU is strongly recommended** for training deep learning models. Make sure CUDA and a GPU-enabled PyTorch or TensorFlow is installed.**
 
 📂 Note: When using PyTorch for training deep learning models, first check the CUDA (or the architecture the machine is using) version of the machine's GPU. Then, install the corresponding compatible version of PyTorch from the official installation guide.
 ---
