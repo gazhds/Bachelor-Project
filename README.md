@@ -4,7 +4,7 @@
 **Author:** Gabriela Zhelyazkova  
 **Program:** BSc in Data Science  
 **Institution:** IT University of Copenhagen  
-**Supervisors:** Dr. Amelia Jiménez-Sánchez, Dr. Veronika Cheplygina  
+**Supervisors:** Amelia Jiménez-Sánchez, Veronika Cheplygina  
 **Date:** May 2025  
 
 ---
