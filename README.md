@@ -45,7 +45,7 @@ Bachelor-Project/
 
 ## 🧪 How to Run the Code
 
-> ⚠️ The project was conducted at ITU using high-performance computing (HPC) resources provided by supervisors. Data is not included in the repository.
+> ⚠️ The project was conducted at ITU using high-performance computing (HPC); the data was provided by supervisors. Data is not included in the repository.
 
 ### Environment Setup
 
@@ -64,6 +64,8 @@ pip install -r requirements.txt
 💡 **GPU is strongly recommended** for training deep learning models. Make sure CUDA and a GPU-enabled PyTorch or TensorFlow is installed.
 
 ---
+
+📂 Note: The .csv file containing the full structured dataset is not included in the repository due to size limitations. However, the feature extraction scripts automatically generate a .csv file with the structured features used for model training.
 
 ### XGBoost Model
 
@@ -124,15 +126,13 @@ Architecture:
 | ResNet-based | Combined features | 0.860 | Best among deep models       |
 | PCA variants | Any config        | ↓     | Decreased performance noted  |
 
-*PCA-based dimensionality reduction is not recommended.*
+*PCA-based dimensionality reduction could be further researched.*
 
 ---
 
 ## 🔁 For Future Work
 
 - Apply models to **external datasets** (e.g., MIMIC-CXR, VinDr)
-- Extend to **multi-label classification** (e.g., comorbidities)
-- Explore **inferring clinical features from images** using multi-task learning
 
 ---
 
