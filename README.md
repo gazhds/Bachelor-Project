@@ -61,12 +61,14 @@ source venv/bin/activate        # On Windows: venv\Scripts\activate
 # Install required packages
 pip install -r requirements.txt
 ```
-💡 **GPU is strongly recommended** for training deep learning models. Make sure CUDA and a GPU-enabled PyTorch or TensorFlow is installed.**
+💡 **GPU is strongly recommended** for training deep learning models. Make sure CUDA and a GPU-enabled PyTorch or TensorFlow is installed.
 
 📂 Note: When using PyTorch for training deep learning models, first check the CUDA (or the architecture the machine is using) version of the machine's GPU. Then, install the corresponding compatible version of PyTorch from the official installation guide.
+
 ---
 
 📂 Note: The .csv file containing the full structured dataset is not included in the repository due to size limitations. However, the feature extraction scripts automatically generate a .csv file with the structured features used for model training.
+
 
 ### XGBoost Model
 
