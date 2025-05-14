@@ -38,7 +38,7 @@ Bachelor-Project/
 ├── report_images/             # Figures embedded in the report
 ├── meeting_notes.md           # Timeline & meeting logs
 ├── Gabriela_proposal.pdf      # Initial research proposal
-├── research_paper.pdf         # Initial research proposal
+├── research_paper.pdf         # Research paper
 └── requirements.txt           # All dependencies used
 ```
 
