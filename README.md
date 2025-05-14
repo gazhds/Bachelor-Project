@@ -1,4 +1,5 @@
 📘 Project Overview
+
 This thesis investigates how incorporating clinical features improves the diagnostic performance and calibration of machine learning models detecting pleural effusion from chest X-rays. The study evaluates two types of models and is not used for improving the performance of Machine Learning models, but to capture the impact of including clinical features in models classifying pleural effusion (similar methods could be tested for other diseases capture on chest X-rays):
 
 XGBoost model trained on tabular/clinical features
@@ -12,6 +13,7 @@ CheXpert: Chest X-ray images with metadata
 CheXmask: Segmentation masks of anatomical structures
 
 🗂 Repository Structure
+
 bash
 Copy
 Edit
